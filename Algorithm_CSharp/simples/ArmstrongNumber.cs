@@ -8,7 +8,7 @@ namespace Algorithm_CSharp.simples
 {
     class ArmstrongNumber
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             try
             {
@@ -22,6 +22,7 @@ namespace Algorithm_CSharp.simples
                 {
                     Console.WriteLine("Number : " + input + " is not an Armstrong number");
                 }
+                Console.ReadLine();
             }
             catch (Exception exp)
             {

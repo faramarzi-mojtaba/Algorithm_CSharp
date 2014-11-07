@@ -8,7 +8,7 @@ namespace Algorithm_CSharp.simples
 {
     public class Fibonacci
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             Console.WriteLine("Enter your Number: ");
             int number = Int32.Parse(Console.ReadLine());

@@ -8,7 +8,7 @@ namespace Algorithm_CSharp.simples
 {
     public class PrimeCounter
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             try
             {
@@ -21,6 +21,7 @@ namespace Algorithm_CSharp.simples
                         counter++;
                 }
                 Console.WriteLine("The number of Prime number less than " + number + " is : " + counter);
+                Console.ReadLine();
             }
             catch (Exception e)
             {

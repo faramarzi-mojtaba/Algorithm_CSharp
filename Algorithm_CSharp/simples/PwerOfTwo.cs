@@ -8,7 +8,7 @@ namespace Algorithm_CSharp.simples
 {
     public class PwerOfTwo
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             try
             {
@@ -18,6 +18,7 @@ namespace Algorithm_CSharp.simples
                 Console.WriteLine("2 ^ " + number + " is : " + recursivePower(number));
                 Console.WriteLine("Non Recursive Aproach Result:");
                 Console.WriteLine("2 ^ " + number + " is : " + nonRecursivePower(number));
+                Console.ReadLine();
             }
             catch (Exception e)
             {

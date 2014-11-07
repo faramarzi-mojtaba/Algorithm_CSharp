@@ -8,7 +8,7 @@ namespace Algorithm_CSharp.simples
 {
     public class Factorial
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             try
             {

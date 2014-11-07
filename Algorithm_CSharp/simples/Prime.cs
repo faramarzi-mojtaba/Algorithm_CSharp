@@ -8,13 +8,14 @@ namespace Algorithm_CSharp.simples
 {
     public class Prime
     {
-        public static void Main(string[] args)
+        public static void demo()
         {
             try
             {
                 Console.WriteLine("Enter Your Number Please :");
                 int number = Int32.Parse(Console.ReadLine());
                 Console.WriteLine("Your Number Is Prime Number : " + isPrime(number));
+                Console.ReadLine();
             }
             catch (Exception e)
             {
